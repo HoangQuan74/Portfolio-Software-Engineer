@@ -1,11 +1,11 @@
 const socials = [
-  { label: "GitHub", href: "https://github.com/hoangquan", icon: "GH" },
+  { label: "GitHub", href: "https://github.com/HoangQuan74", icon: "GH" },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/hoangquan",
+    href: "https://www.linkedin.com/in/hoangquan1604/",
     icon: "LI",
   },
-  { label: "Email", href: "mailto:hoangquan@email.com", icon: "EM" },
+  { label: "Email", href: "mailto:quannguyennhathoang16042002@gmail.com", icon: "EM" },
 ];
 
 export default function Contact() {
@@ -29,7 +29,7 @@ export default function Contact() {
 
         {/* CTA */}
         <a
-          href="mailto:hoangquan@email.com"
+          href="mailto:quannguyennhathoang16042002@gmail.com"
           className="group inline-flex items-center gap-3 px-10 py-4 bg-wood text-black font-bold text-lg rounded-full hover:bg-wood-light transition-all duration-300 hover:shadow-[0_0_40px_rgba(34,197,94,0.3)] mb-16"
         >
           Send me an email

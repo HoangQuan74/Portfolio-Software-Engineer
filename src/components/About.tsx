@@ -1,7 +1,7 @@
 const stats = [
-  { value: "2002", label: "Born" },
-  { value: "♈", label: "Aries" },
-  { value: "🌿", label: "Wood Element" },
+  { value: "3+", label: "Years Experience" },
+  { value: "Go", label: "Primary Language" },
+  { value: "99%+", label: "Uptime Delivered" },
 ];
 
 export default function About() {
@@ -22,21 +22,16 @@ export default function About() {
           {/* Text */}
           <div className="md:col-span-3 space-y-6">
             <p className="text-zinc-400 text-lg leading-relaxed">
-              I&apos;m Hoang Quan, a Software Engineer with a strong passion for
-              building robust and elegant digital products. Born under the Aries
-              sign — I&apos;m bold, driven, and always ready to take on new
-              challenges head-on.
+              Backend Engineer with 3+ years of experience specializing in
+              Golang and NestJS, focused on building scalable microservices and
+              high-throughput APIs. I&apos;ve delivered production systems across
+              gaming, travel, and location-based domains — maintaining {">"}99%
+              uptime and driving measurable performance improvements through
+              query optimization, caching, and observability tooling.
             </p>
             <p className="text-zinc-400 text-lg leading-relaxed">
-              I believe in sustainable growth and continuous improvement, much
-              like the Wood element that defines me — resilient, adaptive, and
-              always reaching upward. Every line of code I write is crafted with
-              purpose and care.
-            </p>
-            <p className="text-zinc-400 text-lg leading-relaxed">
-              I specialize in backend development and DevOps — designing APIs,
-              building microservices, setting up CI/CD pipelines, and managing
-              cloud infrastructure. Always learning, always shipping.
+              I value clean architecture, reliable delivery, and close
+              collaboration across engineering teams.
             </p>
           </div>
 

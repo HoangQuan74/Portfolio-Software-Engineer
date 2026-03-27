@@ -1,31 +1,45 @@
 const projects = [
   {
-    title: "Microservices Platform",
+    title: "Block24 — Gaming Platform CMS/CRM",
     description:
-      "Distributed microservices architecture with service discovery, API gateway, and event-driven communication.",
-    tags: ["Node.js", "Docker", "Kubernetes", "Kafka"],
-    link: "#",
+      "Built and maintained a CMS/CRM backend for a gaming platform — user management, transactions, and system config. Set up Prometheus observability across 200+ endpoints, achieving ~35% error reduction and >99% uptime.",
+    tags: ["Go", "Gin", "PostgreSQL", "Prometheus", "Docker"],
+    link: "https://github.com/HoangQuan74",
   },
   {
-    title: "CI/CD Pipeline Automation",
+    title: "Locogo — Location-Based Platform",
     description:
-      "End-to-end CI/CD pipeline with automated testing, container builds, and zero-downtime deployments.",
-    tags: ["GitHub Actions", "Docker", "Terraform", "AWS"],
-    link: "#",
+      "Developed backend services for a location-based product — geospatial query handling and API integrations. Optimized DB queries for geographic datasets with efficient search and filtering.",
+    tags: ["Go", "Gin", "PostgreSQL", "Docker"],
+    link: "https://github.com/HoangQuan74",
   },
   {
-    title: "REST API Service",
+    title: "Genutrips — Travel & Booking Platform",
     description:
-      "High-performance RESTful API with authentication, rate limiting, caching, and comprehensive documentation.",
-    tags: ["Python", "PostgreSQL", "Redis", "Nginx"],
-    link: "#",
+      "Architected microservices covering booking, authentication, notifications, and configuration management. Implemented TCP/IP inter-service communication with >99% data consistency and reduced critical bugs by 40%.",
+    tags: ["NestJS", "PostgreSQL", "MongoDB", "Redis", "Docker"],
+    link: "https://github.com/HoangQuan74",
   },
   {
-    title: "Infrastructure as Code",
+    title: "Job Search API Service",
     description:
-      "Cloud infrastructure provisioning and management using IaC principles with monitoring and auto-scaling.",
-    tags: ["Terraform", "AWS", "Prometheus", "Grafana"],
-    link: "#",
+      "Developed and maintained backend services for client outsourcing projects. Optimized job search APIs via query tuning and indexing — reduced response time by ~40%. Introduced Redis caching layer for traffic spikes.",
+    tags: ["NestJS", "MySQL", "Redis"],
+    link: "https://github.com/HoangQuan74",
+  },
+  {
+    title: "Retail Store API",
+    description:
+      "Microservices-oriented retail backend with 4 independent services — public API, admin API, WebSocket notifications via Redis Pub/Sub, and NATS JetStream event consumer for analytics, inventory, and Elasticsearch search indexing.",
+    tags: ["Go", "Gin", "PostgreSQL", "Redis", "NATS", "Elasticsearch", "K8s"],
+    link: "https://github.com/HoangQuan74/retail-store-api",
+  },
+  {
+    title: "Goodie — Food Delivery Platform",
+    description:
+      "Food delivery platform built on microservices architecture with API Gateway, gRPC inter-service communication, Kafka event streaming, WebSocket real-time updates, and ELK stack observability.",
+    tags: ["Go", "gRPC", "Kafka", "PostgreSQL", "MongoDB", "Redis"],
+    link: "https://github.com/HoangQuan74/goodie-api",
   },
 ];
 
